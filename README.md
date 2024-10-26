@@ -1,34 +1,53 @@
----
+#### Русский
 
-## Описание проекта / Project Description
+# YouTube Shorts Auto Scroll
 
-### Русский
+## Описание
+YouTube Shorts Auto Scroll — это расширение для браузера, которое автоматически переключает видео на YouTube Shorts. Это позволяет удобно просматривать короткие видео без необходимости вручную нажимать на кнопку "Далее".
 
-**YouTube Shorts Auto Scroll** - это расширение для браузера, которое автоматически пролистывает видео на платформе YouTube Shorts. Оно предназначено для упрощения просмотра контента, позволяя пользователям наслаждаться непрерывным потоком видео без необходимости вручную переключаться между ними.
+## Особенности
+- Автоматическая прокрутка видео.
+- Удобное переключение между видео с помощью контекстного меню и иконки расширения.
 
-#### Функциональность:
-- Автоматическое переключение на следующее видео при завершении текущего.
-- Удобный переключатель, позволяющий пользователям включать и выключать автопрокрутку.
+## Известные проблемы
+В текущей версии есть баг с выключением скрипта. Для его активации или деактивации необходимо обновить страницу после изменения состояния скрипта. 
 
-#### Известные проблемы:
-В текущей версии существует баг с выключением скрипта. Для того чтобы включить или выключить автопрокрутку, необходимо:
-1. Нажать кнопку переключения в расширении.
-2. Обновить страницу, чтобы изменения вступили в силу.
+## Установка
+1. Скачайте или клонируйте репозиторий.
+2. Откройте Chrome и перейдите в `chrome://extensions`.
+3. Включите "Режим разработчика" в правом верхнем углу.
+4. Нажмите "Загрузить распакованное расширение" и выберите папку с расширением.
+5. После установки обновите страницу YouTube Shorts.
 
----
-
-### English
-
-**YouTube Shorts Auto Scroll** is a browser extension that automatically scrolls through videos on the YouTube Shorts platform. It is designed to simplify content consumption, allowing users to enjoy a continuous flow of videos without the need to manually switch between them.
-
-#### Features:
-- Automatic switching to the next video upon completion of the current one.
-- Convenient toggle switch for users to enable or disable auto-scrolling.
-
-#### Known Issues:
-In the current version, there is a bug with disabling the script. To enable or disable auto-scrolling, users need to:
-1. Click the toggle button in the extension.
-2. Refresh the page for the changes to take effect.
+## Использование
+1. Нажмите на иконку расширения, чтобы активировать автопрокрутку.
+2. Используйте контекстное меню, чтобы переключить автопрокрутку.
 
 ---
 
+#### English
+
+# YouTube Shorts Auto Scroll
+
+## Description
+YouTube Shorts Auto Scroll is a browser extension that automatically switches videos on YouTube Shorts. This allows you to conveniently watch short videos without the need to manually click the "Next" button.
+
+## Features
+- Automatic video scrolling.
+- Convenient switching between videos via context menu and extension icon.
+
+## Known Issues
+The current version has a bug with turning off the script. To activate or deactivate it, you need to refresh the page after changing the script status.
+
+## Installation
+1. Download or clone the repository.
+2. Open Chrome and navigate to `chrome://extensions`.
+3. Enable "Developer mode" in the top right corner.
+4. Click "Load unpacked" and select the folder with the extension.
+5. After installation, refresh the YouTube Shorts page.
+
+## Usage
+1. Click the extension icon to activate auto-scrolling.
+2. Use the context menu to toggle auto-scrolling.
+
+---
