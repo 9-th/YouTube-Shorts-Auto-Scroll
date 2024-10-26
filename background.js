@@ -6,6 +6,13 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
         isAutoScrollEnabled = !isAutoScrollEnabled;
         updateIcon();
         sendResponse({ status: isAutoScrollEnabled });
+
+        // Уведомляем все вкладки о состоянии
+        chrome.tabs.query({ url: "https://www.youtube.com/shorts/*" }, (tabs) => {
+            tabs.forEach((tab) => {
+                chrome.tabs.sendMessage(tab.id, { action: "toggleAutoScroll", status: isAutoScrollEnabled });
+            });
+        });
     } else if (request.action === "getStatus") {
         sendResponse({ status: isAutoScrollEnabled });
     }
